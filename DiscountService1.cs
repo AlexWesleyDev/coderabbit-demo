@@ -15,7 +15,7 @@ public class DiscountService
         }
         else
         {
-            if (type == "Regular" || type == "Premium")
+            if (type == "Regular" || type == "Premium" || type=="Gold")
             {
                 if (amount > 500)
                 {
