@@ -13,17 +13,14 @@ public class DiscountService
                 return amount * 0.1;
             }
         }
-        else if (type == "Regular")
+        else
         {
             if (amount > 500)
             {
                 return amount * 0.05;
             }
-            else
-            {
-                return 0;
-            }
         }
+
         return 0;
     }
 }
